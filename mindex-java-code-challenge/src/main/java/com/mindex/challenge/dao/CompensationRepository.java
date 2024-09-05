@@ -9,6 +9,8 @@ import java.util.List;
 
 /**
  * Repository class for {@link Compensation}
+ *
+ * @author Anthony Galea
  */
 @Repository
 public interface CompensationRepository extends MongoRepository<Compensation, String> {
